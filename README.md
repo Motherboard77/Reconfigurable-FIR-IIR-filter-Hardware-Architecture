@@ -1,2 +1,2 @@
 # Reconfigurable-FIR-IIR-filter-Hardware-Architecture
-Reconfigurable Hardware Architecture for FIR-IIR filter implementation
+Reconfigurable Hardware Architecture for FIR-IIR filter implementation. The project consisted of 2 designs. In design 1, we have implemented a multiplexerbased approach to select the particular filter operation. In design 2,the individual multiplication and addition operations are combined into a single Multiply and Accumulate (MAC) unit, and using the controller, the control signals are provided using the iterative process controlled by state transitions. Finally ,the designs are gone through a quantitative analysis. All results were obtained and verified in Xilinx Vivado version 2019.2 (64-bit).
